@@ -2,7 +2,9 @@
 
 [![Circle CI](https://circleci.com/gh/jclem/koa-ssl.svg?style=svg)](https://circleci.com/gh/jclem/koa-ssl)
 
-koa-ssl enforces SSL for [Koa][koa] apps.
+koa-ssl enforces SSL for [Koa][koa] apps. 
+
+This is a fork from [jclem/koa-ssl](https://github.com/jclem/koa-ssl), which allows installation through Yarn by removing the `iojs` engine check.
 
 ## Use
 
@@ -27,12 +29,3 @@ By default, this middleware will only run when `process.env.NODE_ENV` is set to
 "production". Unless a `disallow` function is supplied it will respond with the
 status code 403 and the body "Please use HTTPS when communicating with this
 server."
-
-## Thanks, Heroku
-
-While I created and maintain this project, it was done while I was an employee
-of [Heroku][heroku] on the Human Interfaces Team, and they were kind enough to
-allow me to open source the work. Heroku is awesome.
-
-[heroku]: https://www.heroku.com/home
-[koa]: https://github.com/koajs/koa
