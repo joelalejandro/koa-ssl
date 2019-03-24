@@ -2,7 +2,7 @@
 
 [![Circle CI](https://circleci.com/gh/jclem/koa-ssl.svg?style=svg)](https://circleci.com/gh/jclem/koa-ssl)
 
-koa-ssl enforces SSL for [Koa][koa] apps. 
+koa-ssl enforces SSL for Koa apps. 
 
 This is a fork from [jclem/koa-ssl](https://github.com/jclem/koa-ssl), which allows installation through Yarn by removing the `iojs` engine check.
 
